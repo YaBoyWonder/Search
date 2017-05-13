@@ -2,7 +2,7 @@ require 'youtube_it'
 
 youtube = YouTubeIt::Client.new( :username => "Your Email", :password => "Your Password", :dev_key => )
 
-playlist = youtube.add_playlist(:title => "My Plalist" )
+playlist = youtube.add_playlist(:title => "My Playlist" )
 
 file = File.new( "keywords.txt", "r" )
 while( keyword = file.gets )
