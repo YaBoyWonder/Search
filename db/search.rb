@@ -1,6 +1,6 @@
 require 'youtube_it'
 
-youtube = YouTubeIt::Client.new( :username => "Your Email", :password => "Your Password", :dev_key => "GET THIS FROM SIGNING UP FOR DEV ACCOUNT")
+youtube = YouTubeIt::Client.new( :username => "Your Email", :password => "Your Password", :dev_key => )
 
 playlist = youtube.add_playlist(:title => "My Plalist" )
 
