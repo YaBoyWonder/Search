@@ -1,1 +1,1 @@
-**Songs being stored for Spotify Discord Bot**
+**Songs being stored + searched for Spotify Discord Bot**
