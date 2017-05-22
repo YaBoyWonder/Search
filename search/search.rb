@@ -10,7 +10,7 @@ while( keyword = file.gets )
   if( results.total_result_count > 0 )
     youtube.add_video_to_playlist( playlist.playlist_id, results.videos[0].video_id )
   else
-    puts "Failed to find anything for " + keyword
+    puts "Error, Failed to find anything for " + keyword
   end
 end
  
