@@ -1,7 +1,7 @@
 #!/usr/bin/ruby
 require 'optparse'
 require 'csv'
-
+   
 def main
   input = parseInput
   queries = input[:queries]
